@@ -9,13 +9,8 @@ import Foundation
 import MapKit
 
 class Game {
-    var gameName : String
-    var date     : Date
-    var location : CLLocation
-    
-    init(gameName: String, date: Date, location: CLLocation){
-        self.gameName = gameName
-        self.date = date
-        self.location = location
-    }
+    var gameName : String = ""
+    var date     : Date = Date.init()
+    var location : CLLocation = CLLocation.init()
+
 }

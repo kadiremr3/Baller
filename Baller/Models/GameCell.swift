@@ -6,15 +6,22 @@
 //
 
 import UIKit
+import MapKit
 
 class GameCell: UITableViewCell {
+  
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var distanceLabel: UILabel!
+    @IBOutlet var informationImageView: UIImageView!
+    @IBOutlet var backgroundImageView: UIImageView!
+    @IBOutlet var mapView: MKMapView!
     
-    
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        backgroundImageView.layer.cornerRadius = 30
+       mapView.layer.cornerRadius = 30
+        informationImageView.layer.cornerRadius = 30
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -22,5 +29,4 @@ class GameCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }

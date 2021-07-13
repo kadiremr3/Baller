@@ -9,7 +9,8 @@ import Foundation
 
 struct K {
     
-    let GameCell = "GameCell"
+    static let gameCellNib = "GameCell"
+    static let gameCellIdentifier = "ReusableGameCell"
     
     struct Segues {
         static let toSignUp      = "toSignUpScreenVC"

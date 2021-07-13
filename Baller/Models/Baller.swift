@@ -15,8 +15,6 @@ class Baller {
     var bio            : String
     var profilePicture : UIImage
     
-    
-    
     init(name: String, age: Int, gender: String?, bio: String, profilePicture: UIImage) {
         self.name = name
         self.age = age
