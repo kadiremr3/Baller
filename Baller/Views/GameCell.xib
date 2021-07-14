@@ -84,8 +84,11 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="backgroundImageView" destination="ezg-8P-vR1" id="4Nd-4C-Hke"/>
+                <outlet property="distanceLabel" destination="nwA-93-q9O" id="xIM-DG-qu3"/>
+                <outlet property="gameNameLabel" destination="uGd-en-vLK" id="kf1-zT-fgd"/>
                 <outlet property="informationImageView" destination="RaH-HL-be9" id="kpv-K6-Xdf"/>
                 <outlet property="mapView" destination="U8Q-py-Dcf" id="YfH-9d-DeI"/>
+                <outlet property="timeLabel" destination="w2S-di-GvJ" id="Seh-zS-kMX"/>
             </connections>
             <point key="canvasLocation" x="329.71014492753625" y="185.82589285714286"/>
         </tableViewCell>
