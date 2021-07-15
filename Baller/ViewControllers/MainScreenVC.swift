@@ -12,15 +12,22 @@ class MainScreenVC: UIViewController {
     
     @IBOutlet var gamesTableView: UITableView!
     
+   
+    
     var games = [Game]()
     var newGame = Game()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+  
         
         newGame.gameName = "Mükremin"
         newGame.date = Date.init()
         newGame.location = CLLocation.init()
+        
+        
         
         games.append(newGame)
         games.append(newGame)
