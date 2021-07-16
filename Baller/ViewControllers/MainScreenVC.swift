@@ -11,13 +11,9 @@ import MapKit
 class MainScreenVC: UIViewController {
     
     @IBOutlet var gamesTableView: UITableView!
-    
    
-    
     var games = [Game]()
     var newGame = Game()
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()

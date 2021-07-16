@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F03C2B75DF161946F6CC3DF /* Pods_Baller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3665991BCFE8E65B02018A /* Pods_Baller.framework */; };
+		EA087A0E26A1E73400E7D7E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA087A0D26A1E73400E7D7E5 /* GoogleService-Info.plist */; };
 		EA40DA92268D2BC3001673A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40DA91268D2BC3001673A7 /* AppDelegate.swift */; };
 		EA40DA94268D2BC3001673A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40DA93268D2BC3001673A7 /* SceneDelegate.swift */; };
 		EA40DA99268D2BC3001673A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA40DA97268D2BC3001673A7 /* Main.storyboard */; };
@@ -26,7 +27,6 @@
 		EAC82A36269C546100A25E33 /* MessageScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC82A35269C546100A25E33 /* MessageScreenVC.swift */; };
 		EAC82A3C269C550C00A25E33 /* Baller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC82A3B269C550C00A25E33 /* Baller.swift */; };
 		EAC82A3E269C596700A25E33 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC82A3D269C596700A25E33 /* Game.swift */; };
-		EAE59A32269F3E2300C595B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE59A31269F3E2300C595B2 /* GoogleService-Info.plist */; };
 		EAE59A35269F417400C595B2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EAE59A34269F417400C595B2 /* FirebaseAnalytics */; };
 		EAE59A37269F417400C595B2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EAE59A36269F417400C595B2 /* FirebaseAuth */; };
 		EAE59A39269F417400C595B2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EAE59A38269F417400C595B2 /* FirebaseFirestore */; };
@@ -37,6 +37,7 @@
 		28779714760D613217224311 /* Pods-Baller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baller.debug.xcconfig"; path = "Target Support Files/Pods-Baller/Pods-Baller.debug.xcconfig"; sourceTree = "<group>"; };
 		4289BD1C93E51B12890137C8 /* Pods-Baller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baller.release.xcconfig"; path = "Target Support Files/Pods-Baller/Pods-Baller.release.xcconfig"; sourceTree = "<group>"; };
 		7F3665991BCFE8E65B02018A /* Pods_Baller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA087A0D26A1E73400E7D7E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA40DA8E268D2BC3001673A7 /* Baller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40DA91268D2BC3001673A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA40DA93268D2BC3001673A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		EAC82A35269C546100A25E33 /* MessageScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreenVC.swift; sourceTree = "<group>"; };
 		EAC82A3B269C550C00A25E33 /* Baller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baller.swift; sourceTree = "<group>"; };
 		EAC82A3D269C596700A25E33 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		EAE59A31269F3E2300C595B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				EA40DA9A268D2BC5001673A7 /* Assets.xcassets */,
 				EA40DA9C268D2BC5001673A7 /* LaunchScreen.storyboard */,
 				EA40DA9F268D2BC5001673A7 /* Info.plist */,
-				EAE59A31269F3E2300C595B2 /* GoogleService-Info.plist */,
+				EA087A0D26A1E73400E7D7E5 /* GoogleService-Info.plist */,
 			);
 			path = Baller;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			files = (
 				EA8D31EE269A5E0F009FE43D /* GameCell.xib in Resources */,
 				EA40DA9E268D2BC5001673A7 /* LaunchScreen.storyboard in Resources */,
-				EAE59A32269F3E2300C595B2 /* GoogleService-Info.plist in Resources */,
+				EA087A0E26A1E73400E7D7E5 /* GoogleService-Info.plist in Resources */,
 				EA40DA9B268D2BC5001673A7 /* Assets.xcassets in Resources */,
 				EA40DA99268D2BC3001673A7 /* Main.storyboard in Resources */,
 			);
